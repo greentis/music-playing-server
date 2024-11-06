@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
+import HomePage from './HomePage'
 
-// React.CSSProperties
 type AppProps = {name: string}
-
+// React.CSSProperties
 export default function App({name}: AppProps) {
 
   useEffect(() => {
@@ -27,6 +27,7 @@ export default function App({name}: AppProps) {
   return (
     <>
     <h1>Hello, {name}!</h1>
+      <HomePage />
     </>
   )
 }
