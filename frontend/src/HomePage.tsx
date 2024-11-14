@@ -16,7 +16,7 @@ export default function HomePage({}) {
         <Routes>
             <Route path='/' element={"Home Page"}></Route>
             <Route path='/join' element={<RoomJoinPage />} />
-            <Route path='/create' element={<CreateRoomPage />} />
+            <Route path='/create/:id' element={<CreateRoomPage />} />
         </Routes>
     </BrowserRouter>
   )

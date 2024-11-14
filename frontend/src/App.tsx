@@ -7,10 +7,10 @@ export default function App({name}: AppProps) {
 
   useEffect(() => {
     
-    async function fetchData() {
+    /* async function fetchData() {
       console.log(import.meta.env.VITE_API_URL)
       try {
-        const response = await fetch(`${import.meta.env.VITE_API_URL}/posts`)
+        const response = await fetch(`${import.meta.env.VITE_API_URL}`)
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
@@ -21,7 +21,7 @@ export default function App({name}: AppProps) {
         console.error('Error fetching data:', error)
       }
     }
-    fetchData();
+    fetchData(); */
   }, [])
 
   return (
