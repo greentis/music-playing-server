@@ -26,7 +26,6 @@ export default function App({name}: AppProps) {
 
   return (
     <>
-    <h1>Hello, {name}!</h1>
       <HomePage />
     </>
   )

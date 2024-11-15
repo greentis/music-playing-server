@@ -9,4 +9,4 @@ class RoomSerializer(serializers.ModelSerializer):
 class CreateRoomSerializer(serializers.ModelSerializer):
     class Meta:
         model = Room
-        fields = ('guest_control', 'votes_to_skip')
+        fields = ('room_name','guest_control', 'votes_to_skip')
